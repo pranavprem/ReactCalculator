@@ -7,4 +7,4 @@ A basic Calculator built in React
 * open browser on localhost:8080/
 
 # Screenshot
-[calculator](./Calc.png)
+![calculator](./Calc.png)
