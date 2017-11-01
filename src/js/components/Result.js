@@ -7,9 +7,9 @@ export default class Result extends React.Component{
     //   this.setState({name:"Pranav2"});
     // },2000);
     return (
-     	<div>
-     	Expression: {this.props.expression}<br/>
-      	Result:	{this.props.result}
+     	<div class="container">
+     	{this.props.expression}<br/>
+      	{this.props.result}
 		</div>    
     );
   }
