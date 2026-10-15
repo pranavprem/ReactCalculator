@@ -1,0 +1,10 @@
+---
+description: Constraints for changes to ReactCalculator
+alwaysApply: true
+---
+
+Read AGENTS.md before changing this repo. It is the source of truth.
+
+- Preserve calculator behavior: live JavaScript evaluation, C / M+ / MR, and operator precedence. Do not turn it into a different calculator.
+- `npm run dev` must listen on 0.0.0.0:8080 and answer GET / with HTTP 200. ReactDeployer health-checks that port through a load balancer, so allowedHosts stays open.
+- Do not commit node_modules, dist, or secrets. Do not add a license file.
