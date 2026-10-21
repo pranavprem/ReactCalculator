@@ -1,19 +1,13 @@
-import React from "react"
+import React from "react";
 
-export default class Result extends React.Component{
-
-	render() {
-    // setTimeout(()=>{
-    //   this.setState({name:"Pranav2"});
-    // },2000);
+export default class Result extends React.Component {
+  render() {
     return (
-     	<div class="container">
-     	{this.props.expression}<br/>
-      	{this.props.result}
-		</div>    
+      <div className="container">
+        {this.props.expression}
+        <br />
+        {this.props.result}
+      </div>
     );
   }
-
-
-
 }
